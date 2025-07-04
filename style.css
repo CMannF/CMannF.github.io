@@ -1,6 +1,6 @@
 #Tabs {
     font: bold 3vw Verdana;
-    margin: 1vh 1vw;
+    margin: 1vh 0;
     display: flex;
     justify-content: space-between;
 }
