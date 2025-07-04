@@ -1,0 +1,13 @@
+#Tabs {
+    font: bold 1vw/2vh Verdana;
+    margin: 2% 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    padding: 0.5% 8%;
+    border: 2px solid;
+    border-radius: 40px;
+    text-decoration: none;
+}
