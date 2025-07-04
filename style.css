@@ -3,15 +3,20 @@
 }
 
 #Tabs {
-    font: bold 3vw Verdana;
-    margin: 1vh 0.1vw;
+    font: bold clamp(0.5rem, 0.4318rem + 0.3409vw, 1.25rem) Verdana;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 a {
-    padding: 1vh 3vw;
+    padding: 1vh 4vw;
+    margin: 0.5vh 0.5vw;
     border: 2px solid;
-    border-radius: 30px;
-    text-decoration: none;;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+#Initials {
+    padding: 1vh 1vh;
+    margin: 0.5vh 0.5vh;
 }
