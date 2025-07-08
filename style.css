@@ -1,5 +1,7 @@
 * {
     overflow-x: hidden;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
 }
 
 #Tabs {
