@@ -3,6 +3,7 @@
 }
 
 #Tabs {
+    /* MinVW-320 | MaxVW-3840 | MinFontSize-8 | MaxFontSize-20 */
     font: bold clamp(0.5rem, 0.4318rem + 0.3409vw, 1.25rem) Verdana;
     display: flex;
     justify-content: center;
@@ -10,7 +11,7 @@
 
 a {
     padding: 1vh 4vw;
-    margin: 0.5vh 0.5vw;
+    margin: 1vh 1vw;
     border: 2px solid;
     border-radius: 40px;
     text-decoration: none;
@@ -18,5 +19,49 @@ a {
 
 #Initials {
     padding: 1vh 1vh;
-    margin: 0.5vh 0.5vh;
+    margin: 1vh 1vh;
+}
+
+#Intro {
+    /* MinVW-320 | MaxVW-3840 | MinFontSize-12 | MaxFontSize-24 */
+    font: bold clamp(0.75rem, 0.6818rem + 0.3409vw, 1.5rem) Verdana;
+    text-align: center;
+    padding: 1vh 10vw;
+    margin: 2vh 10vw;
+    border: 2px solid;
+    border-radius: 40px;
+}
+
+#Intro img {
+    width: 15vh;
+    border-radius: 80px;
+}
+
+#AboutMe {
+    margin: 2vh 10vw;
+    border: 2px solid;
+    border-radius: 40px;
+    display: flex;
+}
+
+#AboutMeButtons {
+    border-right: 2px solid;
+    width: 25vw;
+}
+
+#AboutMeButtons button {
+    /* MinVW-320 | MaxVW-3840 | MinFontSize-12 | MaxFontSize-24 */
+    font: bold clamp(0.75rem, 0.6818rem + 0.3409vw, 1.5rem) Verdana;
+    padding: 8.5vh 0;
+    width: 100%;
+}
+
+#AboutMeText {
+    width: 75%;
+    padding: 1vh 5vw;
+    /* MinVW-320 | MaxVW-3840 | MinFontSize-12 | MaxFontSize-24 */
+    font: bold clamp(0.75rem, 0.6818rem + 0.3409vw, 1.5rem) Verdana;
+    text-align: center;
+    align-content: center;
+    max-height: 50vh;
 }
